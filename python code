@@ -1,0 +1,30 @@
+def household_system():
+    while True:
+        print("\n=== Automatic Household System ===")
+        print("1. Turn ON Lights")
+        print("2. Turn OFF Lights")
+        print("3. Turn ON Fan")
+        print("4. Turn OFF Fan")
+        print("5. Security System Status")
+        print("6. Exit")
+
+        choice = int(input("Enter your choice: "))
+
+        if choice == 1:
+            print("Lights are ON")
+        elif choice == 2:
+            print("Lights are OFF")
+        elif choice == 3:
+            print("Fan is ON")
+        elif choice == 4:
+            print("Fan is OFF")
+        elif choice == 5:
+            print("Security System is ACTIVE")
+        elif choice == 6:
+            print("Exiting system...")
+            break
+        else:
+            print("Invalid choice!")
+
+# Run the system
+household_system()
